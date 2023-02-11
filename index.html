@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>කල්පනා කරලා බලන්න search engine</title>
+  <title>කල්පනා කරලා බලන්න search engine ⚡</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <link rel="stylesheet" href="./css/style.css" type="text/css">
   <link rel="stylesheet" href="style.scss">
   <script async src="https://cse.google.com/cse.js?cx=24261dd740c2348e8"></script>
@@ -38,7 +39,7 @@
       <img src="./images/kalpana-engine-logo-01.svg" alt="Google">
           <div class="gcse-search"></div>
         <div class="buttons" align="center">
-          <button type="submit" onclick="window.open('./images/aruna-kumara-cartoon.jpeg','_blank')">බලන්​න</button>
+          <button type="submit" data-fancybox="gallery" data-src="/images/aruna-kumara-cartoon-gg.png">බලන්​න</button>
           <button type="submit" onclick="window.open('./game','_blank')">නැද්ද ​හා</button>
         </br>
         <button type="button" onclick="window.open('https://chrome.google.com/webstore/detail/kalpana-karala/ldfbffgeoopikoigpgjfjdammhpcplch','_blank')">Get the Chrome Extension</button>
@@ -65,6 +66,18 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="/js/main.js"></script>
+  <script type="text/javascript">
+    const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6534");
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        audio.play();
+      });
+    });
+  </script>
 </body>
 
 </html>
