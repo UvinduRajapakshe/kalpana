@@ -1,0 +1,26 @@
+{
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "name": "The Jumping AKD Game",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Jumping AKD",
+  "start_url": "/game",
+  "theme_color": "#a800bf",
+  "categories": [
+    "entertainment"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/images/the-jumping-akd-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [],
+  "prefer_related_applications": false,
+  "description": "The Jumping AKD\" is a fun and challenging mini browser game inspired by Sri Lankan politician Anura Kumara Dissanayake. In this game, you control the jumping AKD character and navigate through obstacles to reach new heights. The game features addictive gameplay and colorful graphics, making it a great way to pass the time. Whether you're a fan of Sri Lankan politics or just looking for a fun game to play, \"The Jumping AKD\" is a must-try. So put your skills to the test and see how high you can jump with AKD!",
+  "lang": "en",
+  "display_override": []
+}
