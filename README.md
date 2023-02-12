@@ -18,6 +18,10 @@
 Extension - [@ChethiyaKD](https://github.com/ChethiyaKD)</br>
 Website - [@UvinduBro](https://github.com/UvinduBro)
 
-# Stats ⚡
+<details>
+  <summary>:zap:Stats ⚡</summary>
+   <br/>
+   
+   ![Alt](https://repobeats.axiom.co/api/embed/dcdb323d35c7ec7879f470feb46feecb2ee77727.svg "Stats")
 
-![Alt](https://repobeats.axiom.co/api/embed/dcdb323d35c7ec7879f470feb46feecb2ee77727.svg "Stats")
+</details>
