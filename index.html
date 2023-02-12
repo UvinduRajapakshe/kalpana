@@ -39,6 +39,8 @@
       <img src="./images/kalpana-engine-logo-01.svg" alt="Google">
           <div class="gcse-search"></div>
         <div class="buttons" align="center">
+
+          <button type="submit" data-fancybox="gallery" data-src="https://raw.githubusercontent.com/UvinduBro/kalpana/main/images/aruna-kumara-cartoon-gg.png">බලන්​න</button>
           <button type="submit" onclick="window.open('./images/aruna-kumara-cartoon.jpeg','_blank')">බලන්​න</button>
           <button type="submit" onclick="window.open('./game','_blank')">නැද්ද ​හා</button>
         </br>
@@ -66,6 +68,49 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6534");
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        audio.play();
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    Fancybox.bind('[data-fancybox="gallery"]', {
+  // Do not create a gallery
+  groupAttr: null,
+
+  // Do not hide page scrollbars
+  hideScrollbar: false,
+
+  // Disable drag to close guesture
+  dragToClose: false,
+
+  // Hide close button
+  closeButton: false,
+
+  // Disable toolbar
+  Toolbar: false,
+
+  // Disable zoom animation; close on click and wheel events
+  Image: {
+    zoom: false,
+    click: "close",
+    wheel: "close",
+  },
+
+  // Custom animations
+  showClass: "fancybox-zoomIn",
+  hideClass: "fancybox-zoomOut",
+});
+
+  </script>
 </body>
 
 </html>

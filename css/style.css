@@ -253,6 +253,51 @@ button {
   transition: all 0.25s linear;
 }
 
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #ffffff00 !important;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.gsc-search-button-v2 svg {
+  fill: #6f6f6f !important;
+}
+
+.gsc-search-button-v2,
+.gsc-search-button-v2:hover,
+.gsc-search-button-v2:focus {
+  border-color: #85000000 !important;
+  background-color: #ffffff00 !important;
+  background-image: none;
+  filter: none;
+}
+
+.gsib_a {
+  padding: 5px 9px 5px 19px !important;
+}
+
+.gsc-search-button {
+  margin-left: -26px !important;
+}
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus {
+  border-color: #ccc !important;
+}
+
 img[data-fancybox] {
   cursor: zoom-in;
 }
