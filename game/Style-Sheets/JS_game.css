@@ -165,10 +165,10 @@ canvas {
   }
 
   canvas {
-    border: 5px solid #ffffffd7 !important;
+    border: 3px solid #ffffffd7 !important;
     border-radius: 1rem !important;
     background-color: #f1f1f1;
-    width: 90%;
+    width: 355px !important;
     backdrop-filter: blur(31px);
     margin-left: 5px !important;
     box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px !important;
