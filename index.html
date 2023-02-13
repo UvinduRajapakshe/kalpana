@@ -9,6 +9,7 @@
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css" type="text/css">
   <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <script async src="https://cse.google.com/cse.js?cx=24261dd740c2348e8"></script>
 
   <!-- Google tag (gtag.js) -->
@@ -69,7 +70,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-  <!--script src="js/main.js"></script--->
+  <script src="js/main.js"></script>
   <script type="text/javascript">
     const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/6534");
     const buttons = document.querySelectorAll("button");
@@ -78,37 +79,6 @@
         audio.play();
       });
     });
-  </script>
-
-  <script type="text/javascript">
-    Fancybox.bind('[data-fancybox="gallery"]', {
-  // Do not create a gallery
-  groupAttr: null,
-
-  // Do not hide page scrollbars
-  hideScrollbar: false,
-
-  // Disable drag to close guesture
-  dragToClose: false,
-
-  // Hide close button
-  closeButton: false,
-
-  // Disable toolbar
-  Toolbar: false,
-
-  // Disable zoom animation; close on click and wheel events
-  Image: {
-    zoom: false,
-    click: "close",
-    wheel: "close",
-  },
-
-  // Custom animations
-  showClass: "fancybox-zoomIn",
-  hideClass: "fancybox-zoomOut",
-});
-
   </script>
 </body>
 </html>

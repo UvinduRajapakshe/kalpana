@@ -3,7 +3,11 @@
 
 <p align="center"> <a href="https://chrome.google.com/webstore/detail/kalpana-karala/ldfbffgeoopikoigpgjfjdammhpcplch"><img align="center" width="250" alt="Screenshot 2023-02-09 at 18 01 36" src="https://user-images.githubusercontent.com/79355885/218239825-a39addab-f16a-4899-8a99-410ca8d56880.png"></a></p>
 
+<div align="center">
+
 ![Alt](https://repobeats.axiom.co/api/embed/3380965ba2bace7ef1e0b759525720fcb1813b18.svg "Repobeats analytics image")
+
+</div>
 
 
 # About
@@ -21,10 +25,12 @@
 Extension - [@ChethiyaKD](https://github.com/ChethiyaKD)</br>
 Website - [@UvinduBro](https://github.com/UvinduBro)
 
-<details>
-  <summary>Stats ⚡</summary>
-   <br/>
-   
-   ![Alt](https://repobeats.axiom.co/api/embed/dcdb323d35c7ec7879f470feb46feecb2ee77727.svg "Stats")
 
-</details>
+## Contributors
+
+<a href="https://github.com/UvinduBro/kalpana/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=UvinduBro/kalpana" />
+</a>
+
+
+
